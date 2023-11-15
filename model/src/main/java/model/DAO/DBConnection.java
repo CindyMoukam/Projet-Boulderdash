@@ -4,9 +4,10 @@ package model.DAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 /**
- * @author Laetitia
+ *
  *
  */
 public class DBConnection {
@@ -54,7 +55,7 @@ public class DBConnection {
 	public Connection getConnection() {
 		return connection;
 	}
-	
+
 	/**
 	 * Gets the URL
 	 * @return
@@ -78,4 +79,6 @@ public class DBConnection {
 	public  String getPASSWD() {
 		return PASSWD;
 	}
+
+
 }
