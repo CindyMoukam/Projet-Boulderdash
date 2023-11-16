@@ -3,15 +3,16 @@ package contract;
 import java.io.IOException;
 
 /**
- * @author Anthony
+ * The interface IOrderPerformer
+ * @author Wilfried
  *
  */
 public interface IOrderPerformer {
 
-		/**
-		 * @param userOrder
-		 * @throws IOException
-		 */
-		void orderPerform(UserOrder userOrder) throws IOException;
+    /**
+     * @param userOrder
+     * @throws IOException
+     */
+    void orderPerform(UserOrder userOrder) throws IOException;
 
 }

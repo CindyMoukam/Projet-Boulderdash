@@ -7,11 +7,11 @@ import entity.mobile.IMobile;
 /**
  * The Interface IModel.
  *
- * @author Jean-Aymeric Diet
+ * @author Wilfired
  */
 public interface IModel {
 
-	IMap getMap();
+    IMap getMap();
 
     IMobile getMyPlayer();
 

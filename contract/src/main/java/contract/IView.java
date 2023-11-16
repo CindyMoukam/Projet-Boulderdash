@@ -5,15 +5,15 @@ import fr.exia.showboard.BoardFrame;
 /**
  * The Interface IView.
  *
- * @author Jean-Aymeric Diet
+ * @author Wilfried
  */
 public interface IView {
 
-	void displayMessage(final String message);
-	
-	void followMyPlayer();
+    void displayMessage(final String message);
 
-	void updateView();
+    void followMyPlayer();
 
-	BoardFrame getBoardFrame();
+    void updateView();
+
+    BoardFrame getBoardFrame();
 }
